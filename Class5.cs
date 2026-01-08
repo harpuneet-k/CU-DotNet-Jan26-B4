@@ -32,3 +32,17 @@ namespace university_system
         }
     }
 }
+
+// Explanation: Conversion Strategy
+// double is used for cart accumulation because it is fast and commonly used for intermediate calculations.
+// decimal is required for tax, discount, and final payable amount to ensure financial accuracy.
+// The cart total is explicitly converted from double to decimal before applying tax and discount.
+// All monetary rules are applied only after conversion to decimal.
+
+// Precision Risks
+// double uses binary floating-point representation and may introduce small rounding errors.
+// Converting an imprecise double to decimal can carry forward these inaccuracies.
+// Therefore, conversion is done once, early, and all financial calculations are handled in decimal.
+// Using double throughout could result in incorrect billing amounts.
+
+
