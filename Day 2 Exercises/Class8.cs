@@ -31,3 +31,14 @@ namespace university_system
         }
     }
 }
+
+// double usageMB = usageBytes / (1024.0 * 1024.0);
+// long is implicitly converted to double.
+// Safe because double can represent large integers approximately.
+// Enables floating-point division.
+
+// Math.Round(value, MidpointRounding.AwayFromZero);
+// .5 values round up.
+// Rounding is preferred over truncation for monthly summaries to avoid misleading reports.
+
+
