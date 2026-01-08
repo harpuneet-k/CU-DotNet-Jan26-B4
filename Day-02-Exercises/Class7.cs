@@ -46,3 +46,12 @@ namespace university_system
         }
     }
 }
+// Validation Choices
+// Score is validated to be within 0–100 before conversion.
+// Prevents invalid values that could cause incorrect grading or overflow.
+
+// Casting Choices
+// double → int conversion uses rounding, not truncation.
+// Prevents unfair grade reduction.
+// int → byte assignment is safe because grade values are controlled and within range.
+
