@@ -32,3 +32,9 @@ namespace university_system
         }
     }
 }
+
+// Overflow Concerns
+// Arithmetic on short values is implicitly promoted to int in C#.
+// This prevents overflow during calculations.
+// Overflow risk exists only if sensor values exceed the short range, which must be validated at input.
+
