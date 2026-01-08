@@ -30,3 +30,11 @@ namespace Exercises
         }
     }
 }
+
+// (Justification of Type Choices & Conversions)
+// int for basic salary
+//  Basic salary is a fixed whole number, so int is sufficient and efficient.
+// double for allowances and deductions
+//  These values may come from external systems or calculations and can contain fractional values.
+// decimal for net salary
+//  Payroll calculations require high precision; decimal avoids floating-point rounding errors.
