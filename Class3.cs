@@ -29,3 +29,13 @@ namespace university_system
         }
     }
 }
+
+// Short Explanation
+// decimal is used for fine amounts to ensure accurate financial calculations without rounding errors.
+// int is used for days overdue because days are whole numbers.
+// The total fine is displayed as decimal to maintain currency precision.
+// The fine is logged as double for analytics due to better performance and tool compatibility.
+// Conversions:
+// int to decimal occurs implicitly during calculation and is safe.
+// decimal to double requires explicit casting and may cause minor precision loss, which is acceptable for analytics.
+
