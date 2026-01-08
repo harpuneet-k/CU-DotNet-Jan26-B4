@@ -36,3 +36,7 @@ namespace university_system
         }
     }
 }
+// Item count is stored as a signed integer for flexibility, while maximum capacity is stored as an unsigned type to prevent negative values
+// capacity is safely converted to int for comparison to avoid signed–unsigned conversion risks such as overflow and wrap-around errors.
+
+
