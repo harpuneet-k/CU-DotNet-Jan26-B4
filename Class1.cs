@@ -34,3 +34,8 @@ namespace university_system
         }
     }
 }
+
+// 149 attended out of 200 delivered → 74.5%
+// Truncate → 74
+// Round → 75
+
