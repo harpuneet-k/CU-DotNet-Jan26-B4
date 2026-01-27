@@ -109,14 +109,7 @@
     }
 }
 
-// can we create a method in derived class with same name
-// yes, method hiding using new keyword
-// new keyword is used to create new objects as well as
-// to hide base class methods.
 
-// BASE CLASS COLLECTION CAN TAKE EVERY TYPE OF OBJECT INTO IT OF DERIVED CLASSES.
-// SO DON'T CREATE OBJECT ARRAY WITH EMPLOYEE, STUDENT,ETC;
-// MAKE OBJECT ARRAY WITH PERSON CLASS.(base class)
 
 
 // TO WRITE:
